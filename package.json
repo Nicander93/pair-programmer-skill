@@ -1,0 +1,35 @@
+{
+  "name": "pair-programmer-skill",
+  "version": "1.0.0",
+  "description": "A portable Agent Skill for human-paced AI pair programming",
+  "license": "MIT",
+  "author": "Nicander93",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicander93/pair-programmer-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nicander93/pair-programmer-skill/issues"
+  },
+  "homepage": "https://github.com/Nicander93/pair-programmer-skill#readme",
+  "keywords": [
+    "agent-skill",
+    "agent-skills",
+    "skills",
+    "pair-programming",
+    "cursor",
+    "claude-code",
+    "codex",
+    "ai-coding"
+  ],
+  "files": [
+    "skills",
+    "LICENSE",
+    "README.md",
+    "README.zh-CN.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "prepublishOnly": "node -e \"require('fs').accessSync('skills/pair-programmer/SKILL.md')\""
+  }
+}
